@@ -33,18 +33,6 @@ function draw() {
     splash()
   }
 
-   // Draw oval
-   noStroke();
-   fill(69, 39, 160);
-   ellipse(width / 2, height / 2, width * 0.2, height * 0.2);
-
-  //for loop to draw lines
-  for (let i = 0; i < 5; i++) {
-    drawLine(random_color(), random_color())
-    splash()
-  }
-
-
   // Draw the lines once and stop
   noLoop();
 }
